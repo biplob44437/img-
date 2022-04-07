@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <title>img gallary</title>
+        <link rel="stylesheet" href=".//style.css">
+    
+    </head>
+    <body>
+     
+      
+        <div class="product">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                    <div class="product-img">
+                        <img src="./img/IMG_9915.jpg" onclick="myFunction(this)" alt="">
+                        <img src="./img/IMG_9916.JPG"onclick="myFunction(this)" alt="">
+                        <img src="./img/IMG_9918.JPG"onclick="myFunction(this)" alt="">
+                        <img src="./img/IMG_9920.JPG"onclick="myFunction(this)" alt="">
+                    </div>
+                    <div class="img-container">
+                        <img id="imgbox" src="./img/IMG_9915.jpg" alt="">
+                    
+                    </div>
+
+
+             </div>
+          
+
+             
+        
+                    <div class="col-lg-6">
+                        <div class="product-text my-5">
+                            <h1>PARTY FOLOR MAN SHIRT </h1>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, aut perspiciatis. Sint impedit dolorum necessitatibus consequuntur modi deserunt quo iusto sequi. Perspiciatis ea laudantium architecto placeat aliquam molestiae doloremque eius!</p>
+                            <ul class="mt-4">
+                                <li>ac sit man collection</li>
+                                <li>ac sit man collection</li>
+                                <li>ac sit man collection</li>
+                            </ul>
+                            <h5 class="mt-4">Tk 500.00 <span class="text-bold">(30%off)</span></h5>
+                            <a  class="btn btn-warning btn-lg mt-3" href="order.html">Buy-now</a>
+                         
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
+        <script>
+            function myFunction(img){
+         var fullimg =document.getElementById("imgbox")
+         fullimg.src=img.src;
+            }
+        </script>
+    </body>
+</html>

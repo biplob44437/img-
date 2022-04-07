@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poduct-img img{
+    max-width: 100%;
+    width: 400px;
+
+
+    margin-top: 20px;
+}
+
+ .btn{
+margin-top: 30px;
+background-color: rgb(243, 161, 20);
+border-color:rgb(243, 161, 20) ;
+color: black;
+
+}
+
